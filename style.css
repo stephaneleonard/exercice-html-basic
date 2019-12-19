@@ -10,6 +10,14 @@ form {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+i {
+  font-style: italic;
+}
+
+strong {
+  font-weight: bold;
+}
+
 p {
   line-height: 145%;
 }
@@ -43,8 +51,7 @@ h1 {
 
 .presentation {
   background-color: #f1f1f1;
-  padding-left: 60px;
-  padding-right: 60px;
+  padding: 3.5em;
 }
 
 .presentation img {
@@ -110,7 +117,7 @@ h1 {
 .infos {
   background-color: #e6e6e6;
   text-align: center;
-  padding:3.5em;
+  padding: 3.5em;
 }
 
 .infos h2 {
@@ -213,7 +220,7 @@ h1 {
   line-height: 145%;
   margin-top: 10px;
   padding: 10px;
-  width:100%;
+  width: 100%;
 }
 
 #nm {
@@ -244,9 +251,38 @@ h1 {
   background-color: #be6c29;
   text-decoration: none;
   color: white;
-  border:none;
+  border: none;
   border-radius: 3px;
   font-size: 90%;
   font-weight: bold;
   margin-top: 30px;
 }
+
+/*-----------------------------------*/
+/*--------------FOOTER---------------*/
+/*-----------------------------------*/
+
+footer {
+  text-align: center;
+  padding-top: 70px;
+  height: 70px;
+  font-size: 90%;
+  background-color: #f1f1f1;
+  color: rgb(153, 153, 153);
+}
+
+footer a {
+  color: #be6c29;
+}
+
+@media only screen and (max-width: 768px) {
+    .contact-info {
+      display: block;
+    }
+  
+    .grid-form {
+      display: block;
+      margin-bottom: 20px;
+    }
+  
+  }
