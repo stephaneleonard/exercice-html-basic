@@ -4,7 +4,8 @@ h3,
 h4,
 h5,
 h6,
-p, a {
+p,
+a {
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -39,17 +40,18 @@ h1 {
 /*-----------PRESENTATION------------*/
 /*-----------------------------------*/
 
+.presentation {
+  background-color: #f1f1f1;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
 .presentation img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
   padding: 25px;
-}
-
-.presentation {
-  padding-left: 30px;
-  padding-right: 30px;
 }
 
 .presentation h2 {
@@ -79,8 +81,8 @@ h1 {
   border-top: 0.5px solid #debea4;
 }
 
-.presentation article p:last-of-type{
-    margin-bottom: 30px;
+.presentation article p:last-of-type {
+  margin-bottom: 30px;
 }
 
 .presentation a {
@@ -91,4 +93,48 @@ h1 {
   border-radius: 3px;
   font-size: 80%;
   font-weight: bold;
+}
+
+/*-----------------------------------*/
+/*--------GRID INFO  CONTACT---------*/
+/*-----------------------------------*/
+
+.contact-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.infos {
+  background-color: #e6e6e6;
+  text-align: center;
+  padding: 20px;
+}
+
+.infos h2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 125%;
+  font-weight: 200;
+  text-align: center;
+}
+
+.infos p {
+  color: rgb(75, 75, 75);
+  line-height: 170%;
+  text-align: justify;
+  font-size: 90%;
+  margin-bottom: 15px;
+}
+
+.infos blockquote {
+    text-align: justify;
+    font-style: italic;
+    padding: 20px 40px;
+    border-left: 4px solid black;
+}
+
+.contact {
+  background-color: #ececec;
+  padding: 20px;
+  line-height: 145%;
 }
