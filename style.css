@@ -1,0 +1,44 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  line-height: 145%;
+}
+
+/*-----------------------------------*/
+/*---------------HEADER--------------*/
+/*-----------------------------------*/
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(img/banner.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 0 0;
+  background-size: cover;
+  height: 700px;
+  width: auto;
+}
+
+h1 {
+  padding-top: 320px;
+  font-size: 350%;
+  font-weight: 200;
+  text-align: center;
+  color: white;
+}
+
+/*-----------------------------------*/
+/*-----------PRESENTATION------------*/
+/*-----------------------------------*/
+
+img {
+  width: 100px;
+}
