@@ -4,7 +4,7 @@ h3,
 h4,
 h5,
 h6,
-p {
+p, a {
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -17,7 +17,7 @@ p {
 /*-----------------------------------*/
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url(img/banner.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -39,6 +39,56 @@ h1 {
 /*-----------PRESENTATION------------*/
 /*-----------------------------------*/
 
-img {
-  width: 100px;
+.presentation img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 25px;
+}
+
+.presentation {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.presentation h2 {
+  padding-top: 20px;
+  padding-bottom: 45px;
+  font-size: 220%;
+  font-weight: 200;
+  text-align: center;
+}
+
+.presentation h3 {
+  padding-top: 20px;
+  padding-bottom: 45px;
+  font-size: 180%;
+  font-weight: 200;
+  text-align: center;
+}
+
+.presentation p {
+  color: rgb(75, 75, 75);
+  line-height: 145%;
+  text-align: justify;
+  font-size: 100%;
+}
+
+.presentation article {
+  border-top: 0.5px solid #debea4;
+}
+
+.presentation article p:last-of-type{
+    margin-bottom: 30px;
+}
+
+.presentation a {
+  padding: 10px 20px;
+  background-color: #be6c29;
+  text-decoration: none;
+  color: white;
+  border-radius: 3px;
+  font-size: 80%;
+  font-weight: bold;
 }
